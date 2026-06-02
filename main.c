@@ -221,13 +221,13 @@ int main(void) {
     }
     
     // The Zephyr Shell starts automatically in the background on the UART.
-    printf("\n\n======================================\n");
-    printf("     THEATER PANIC: THE ADVENTURE     \n");
-    printf("======================================\n");
-    printf("Type 'look' to see where you are.\n");
-    printf("Type 'go <direction>' to move.\n");
-    printf("Type 'reset' to start over.\n");
-    printf("======================================\n\n");
+    printk("\n\n======================================\n");
+    printk("     THEATER PANIC: THE ADVENTURE     \n");
+    printk("======================================\n");
+    printk("Type 'look' to see where you are.\n");
+    printk("Type 'go <direction>' to move.\n");
+    printk("Type 'reset' to start over.\n");
+    printk("======================================\n\n");
 
     return 0;
 }
