@@ -28,6 +28,12 @@ manifest:
       path: modules/hal/cmsis_6
       groups:
         - hal
+        
+    - name: hal_microchip
+      revision: 86f3ea6b389d860332bd81ae8b97543def619395
+      path: modules/hal/microchip
+      groups:
+        - hal
 
   self:
     path: app
