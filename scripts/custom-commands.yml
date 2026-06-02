@@ -1,0 +1,11 @@
+west-commands: 
+  - file: scripts/cbuild.py 
+    commands: 
+      - name: cbuild
+        class: ContainerBuild
+        help: Run west build with the classroom Podman container 
+  - file: scripts/cflash.py
+    commands:
+      - name: cflash
+        class: ContainerFlash 
+        help: Run west flash with –-no-rebuild 

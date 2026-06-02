@@ -226,7 +226,7 @@ int main(void) {
     printk("======================================\n");
     printk("Type 'look' to see where you are.\n");
     printk("Type 'go <direction>' to move.\n");
-    printk("Type 'reset' to start over.\n");
+    printk("Type 'reset' to start over..\n");
     printk("======================================\n\n");
 
     return 0;
